@@ -1,0 +1,386 @@
+.landing-page{
+    width: 1473px;
+    height: 2909px;
+    top: -185px;
+    left: -222px;
+    gap: 0px;
+    opacity: 1px;
+    background: #FFFFFF;
+}
+.head{
+    width: 1464px;
+    height: 83px;
+    top: 91px;
+    gap: 0px;
+    opacity: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-icon{
+    width: 136px;height: 40px;top: 113px;left: 182px;gap: 0px;opacity: 1px;
+    margin: 10px;
+}
+
+.login-contaier{
+    display: flex;
+    flex-direction: rowx;
+}
+
+.userlogin{
+    background: #EA3C12;
+    width: 102px;
+    height: 43px;
+    gap: 0px;
+    opacity: 1px;
+    box-shadow: 0px 1px 3px 0px #00000014;
+    margin: 10px;
+}
+
+.tlogin{
+    width: 129px;
+    height: 43px;
+    gap: 0px;
+    opacity: 1px;
+    background: #FFFFFF;
+    color: black;
+    margin: 10px;
+    box-shadow: 0px 1px 3px 0px #00000014;
+}
+
+.menu-image{
+    width: 500px;height: 405.89px;top: 188px;left: 808px;gap: 0px;opacity: 0px;
+}
+
+.header_card1{
+    width: 614px;height: 49px;top: 250px;left: 226px;gap: 0px;opacity: 0px;
+    styleName: Display 3 - 35px/SemiBold;
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 600;
+line-height: 47.66px;
+text-align: left;
+color: #000000;
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.para_card1{
+    width: 600px;height: 64px;top: 305px;left: 226px;gap: 0px;opacity: 0px;
+    styleName: H5 - 20px/Light;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 300;
+line-height: 34px;
+text-align: left;
+color: #525F7F;
+}
+
+.inputs_card1{
+    width: 438px;height: 97px;top: 397px;left: 226px;gap: 0px;opacity: 1px;
+    text-align: left;
+}
+
+
+/* Suggestions list container */
+.suggestions {
+    position: absolute; /* Make the list appear just below the input field */
+    width: 50%; /* Make the suggestions list as wide as the input */
+    max-height: 200px; /* Limit the height to avoid too long lists */
+    overflow-y: auto; /* Add a scrollbar if the list is too long */
+    background-color: #fff; /* White background for the list */
+    border: 1px solid #ccc; /* Light grey border to match input field */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    z-index: 1000; /* Ensure the list appears above other elements */
+    margin-top: 5px; /* Slight margin to separate the list from the input */
+  }
+  
+  /* Each suggestion item */
+  .suggestions li {
+    padding: 10px; /* Space inside each item */
+    cursor: pointer; /* Pointer cursor to indicate clickability */
+    font-family: 'Open Sans', sans-serif; /* Match the font style */
+    font-size: 16px; /* Readable font size */
+    color: #333; /* Dark grey text color */
+    list-style-type: none; /* Remove bullets */
+  }
+  
+  /* Hover state for suggestion items */
+  .suggestions li:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+  }
+  
+  /* Selected state (if you implement keyboard navigation) */
+  .suggestions li.selected {
+    background-color: #ea3c12; /* Highlight color for selected item */
+    color: #ffffff; /* White text on highlighted item */
+  }
+  
+  .input-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  
+
+  .card2{
+    margin: 50px;
+  }
+
+  .mincard_card2{
+    width: 317px;height: 308px;top: 702px;left: 196px;gap: 0px;opacity: 0px;
+    background: #FFFFFF;
+    margin: 10px;
+  }
+
+  .mincard_card2_head{
+    width: 254px;height: 24px;top: 815px;left: 220px;gap: 0px;opacity: 0px;
+    styleName: H6 - 16px/SemiBold;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+text-align: left;
+color: #000000;
+  }
+
+
+  .mincard_card2_para{
+    width: 254px;height: 92px;top: 854px;left: 220px;gap: 0px;opacity: 0px;
+    styleName: H6 Mobile - 14px/Light;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+text-align: left;
+color: #525F7F;
+  }
+
+  .mincard-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card3{
+    width: 1238px;height: 485px;top: 1302px;left: 117px;gap: 0px;opacity: 0px;
+    text-align: center;
+  }
+
+  .head-card3{
+    width: 663px;height: 48.6px;top: 1302px;left: 385px;gap: 0px;opacity: 0px;
+    styleName: Display 3 - 35px/SemiBold;
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 600;
+line-height: 47.66px;
+text-align: center;
+color: #000000;
+  }
+
+  .card3-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.mincard-card3{
+    width: 330px;height: 388px;top: 1399px;left: 117px;gap: 0px;opacity: 0px;
+
+}
+.img-card3{
+    width: 278.37px;height: 200px;top: 1399px;left: 606px;gap: 0px;opacity: 0px;
+
+}
+
+.minmincard-card3{
+    width: 330px;height: 166px;top: 1621px;left: 1025px;gap: 0px;opacity: 0px;
+    text-align: center;
+}
+
+.mincard-card3-header{
+width: 330px;height: 39px;top: 1621px;left: 580px;gap: 0px;opacity: 0px;
+styleName: Display 4 - 26px/SemiBold;
+font-family: Open Sans;
+font-size: 26.04px;
+font-weight: 600;
+line-height: 35.46px;
+text-align: center;
+color: #32325D;
+}
+
+.mincard-card3-para{
+    width: 320px;height: 136px;top: 1651px;left: 584px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 20px;font-weight: 300;line-height: 34px;text-align: center;
+    color: #525F7F;
+}
+
+
+.card4{
+    width: 1331px;height: 244px;top: 1803px;left: 55px;gap: 0px;opacity: 0px;
+    margin: 20px;
+}
+
+.header-card4{
+    width: 663px;height: 48.6px;top: 1803px;left: 60px;gap: 0px;opacity: 0px;
+    styleName: Display 3 - 35px/SemiBold;
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 600;
+line-height: 47.66px;
+text-align: left;
+color: #000000;
+}
+
+.mincard-card4{
+    width: 420px;height: 167px;top: 1880px;left: 55px;gap: 0px;opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px #333;
+}
+
+.img-card4{
+    width: 79px;height: 83px;top: 1895px;left: 73px;gap: 0px;opacity: 0px;
+    text-align: left;
+}
+
+
+.mincard-head-card1{
+    width: 139px;height: 25px;top: 1898px;left: 164px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 18px;font-weight: 400;line-height: 24.51px;text-align: left;
+    color: #32325D;
+}
+
+.mincard-layout1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.layout{
+    text-align: center;
+    width: 49px;height: 47px;top: 1991px;left: 166px;padding: 0px 4px 0px 3px;gap: 0px;opacity: 0px;
+}
+
+.minmin-card4-para1{
+    width: 21px;height: 25px;left: 14px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 18px;font-weight: 700;line-height: 24.51px;text-align: center;
+    color: #525F7F;
+}
+
+.minmin-card4-para2{
+    width: 54px;height: 19px;top: 28px;left: -3px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 14px;font-weight: 400;line-height: 19.07px;text-align: center;
+    color: #8898AA;
+}
+
+.card4-link{
+    width: 85px;height: 28px;top: 2010px;left: 378px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 16px;font-weight: 400;line-height: 28px;text-align: left;
+    color: #5E72E4;
+    margin-top: 10px;
+}
+
+
+.layout-card4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card5{
+    width: 1332px;height: 382px;top: 2137px;left: 70px;gap: 0px;opacity: 0px;
+    
+}
+
+.header-card5{
+    width: 784px;height: 49px;top: 2137px;left: 339px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 28px;font-weight: 600;line-height: 38.13px;text-align: center;
+    color: #000000;
+    
+}
+
+
+.min-card5{
+    width: 1332px;height: 307px;top: 2212px;left: 70px;gap: 0px;opacity: 0px;
+    box-shadow: 2px 2px 5px #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.minmin-card5{
+    width: Hug (300px)px;height: Hug (216px)px;top: 2238.85px;left: 99.38px;gap: 0px;opacity: 0px;
+    margin: 30px;
+    
+
+}
+
+.img-card5{
+    width: 40px;height: 40px;gap: 0px;border-radius: 20px 0px 0px 0px;opacity: 0px;
+
+}
+
+.mintext-card5{
+    width: Hug (246px)px;height: Hug (216px)px;gap: 6px;opacity: 0px;
+
+}
+
+.mincard-text-card5{
+    width: 75px;height: 17px;gap: 0px;opacity: 0px;
+    font-family: Roboto;font-size: 15px;font-weight: 400;line-height: 17px;letter-spacing: 0.20000000298023224px;text-align: left;
+    color: #000000DE;
+}
+
+
+.mincard-date-card5{
+    width: 70px;height: 19px;gap: 0px;opacity: 0px;
+    font-family: Roboto;font-size: 14px;font-weight: 400;line-height: 19px;letter-spacing: 0.20000000298023224px;text-align: left;
+    color: #0000008A;
+}
+
+.mincard-dis-card5{
+    width: 246px;height: 168px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 16px;font-weight: 400;line-height: 24px;text-align: left;
+    color: #2A363D;
+}
+
+.foot{
+    width: 1464px;height: 374px;top: 2536px;left: 9px;gap: 0px;opacity: 0px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.min-foot{
+    width: 1083.77px;height: 288px;top: 2583px;left: 202.17px;gap: 0px;opacity: 0px;
+    border: 1.5px solid #FFFFFF
+
+}
+
+.foot-min-text{
+    width: 218.58px;height: 28px;top: 2593px;left: 229.62px;gap: 0px;opacity: 0px;
+    font-family: Open Sans;font-size: 16px;font-weight: 400;line-height: 28px;text-align: left;
+    color: #FFFFFF;
+}
+
+
+.input-box-foot{
+    color: #FFFFFF;
+    width: 20%;
+    height: 50px;
+    top: 2636px;
+    left: 229.62px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border: 1.5px solid #E7E8F2
+    
+}
